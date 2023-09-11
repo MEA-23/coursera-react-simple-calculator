@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-
+import Calculator from "./component/calculator";
 class App extends Component {
   state = {};
   render() {
-    return <h1>calculator</h1>;
+    return <Calculator />;
   }
 }
 
